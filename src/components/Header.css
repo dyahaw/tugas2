@@ -1,0 +1,43 @@
+.header {
+  background-color: #282c34;
+  padding: 10px;
+  position: relative;
+}
+
+.header ul {
+  list-style: none;
+  display: flex;
+  justify-content: left;
+  gap: 80px;
+  margin: 0;
+  padding: 0;
+}
+
+.header ul li {
+  display: inline;
+}
+
+.header ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+.header ul li a.active {
+  border-bottom: 2px solid #ffb200;
+}
+
+.login-button {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  color: white;
+  background-color: #007bff;
+  padding: 5px 10px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.login-button:hover {
+  background-color: #0056b3;
+}
